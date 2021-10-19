@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magentomaster_Testmodule::testmodule" title="Magentomaster" module="Magentomaster_Testmodule" sortOrder="7" resource="Magentomaster_Testmodule::testmodule"/>
+        <add id="Magentomaster_Testmodule::testmodule_contact" title="Contact Form" module="Magentomaster_Testmodule" sortOrder="10" action="magentomaster_testmodule/contact" resource="Magentomaster_Testmodule::testmodule_contact" parent="Magentomaster_Testmodule::testmodule"/>
+    </menu>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="content">
+            <block class="Magentomaster\Testmodule\Block\Contactlist" name="knockoutjs_test_block" template="contact-form-list.phtml">
+                <arguments>
+                    <argument name="jsLayout" xsi:type="array">
+                        <item name="components" xsi:type="array">
+                            <item name="test" xsi:type="array">
+                                <item name="component" xsi:type="string">Magentomaster_Testmodule/js/contact-form-listing</item>
+                                <item name="displayArea" xsi:type="string">test</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
+    </body>
+</page>
